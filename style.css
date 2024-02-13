@@ -1,0 +1,116 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --pink: #fdc1cb;
+}
+p{align-items: flex-start;}
+
+body{
+    display: grid;
+    margin: 6px;
+}
+
+header{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 6px;
+}
+
+.nav{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 6px;
+    overflow: hidden;
+}
+
+main{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 6px;
+}
+
+.container-main{
+    display: grid;
+    gap: 6px;
+}
+
+
+.site-title{
+    background-color: #ffd431;
+    padding: 40px 5px;
+}
+.nav-1, .nav-2, .nav-3{
+    background-color: var(--pink);
+    padding: 20px 3px;
+}
+
+
+.post-title{
+    background-color: #afd8e5;
+    padding: 20px 400px;
+    margin: 6px 0 0 0;
+}
+.p-m-img{
+    display: grid;
+    grid-template-columns: 200px auto;
+    gap: 6px;
+}
+.post-meta{
+    background-color: #97ec94;
+    padding: 225px 2px;
+    width: 200px;
+}
+.m-img{
+    display: grid;
+    gap: 6px;
+}
+.main-content{
+    padding: 73px 6px;
+    grid-template-columns: auto 1fr;
+    background-color: #d3d3d3;
+}
+.main-content-img{
+    background-color: #fefd38;
+    padding: 112px 0;
+}
+.container-side{
+    display: grid;
+    grid-template-rows: auto auto auto;
+    gap: 6px;
+    margin-top: 6px;
+}
+
+
+
+
+
+
+.side-bar{
+    background-color: #f9a84b;
+    padding: 73px 6px;
+}
+.ads{
+    background-color: #1d7f12;
+    padding: 73px 6px;
+}
+.other-stuff{
+    background-color: #da51f8;
+    padding: 73px 6px;
+}
+
+
+
+
+
+
+
+
+
+footer{
+    background-color: #a18881;
+    padding: 34px 12px;
+    margin: 5px 0 0 0;
+}
